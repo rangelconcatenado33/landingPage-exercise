@@ -1,0 +1,277 @@
+/*
+SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+*/
+
+/*
+Main color: #ff4800 (orange)
+            ##f2f2f4 (light-grey -section)
+grey-bottom:color: #1f1f2e
+
+*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+/* ------------------------ */
+/* GENERAL STYLES */
+/* ------------------------ */
+body {
+    font-family: "Inter", sans-serif;
+    color: #343a40;
+}
+
+.container {
+    /*width: 960px; */
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+section {
+  text-align: center;
+  height: 100vh;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1{
+    font-size: 24px;
+}
+
+h2 {
+    /* margin-bottom: 48px;*/
+    font-size: 36px;
+    letter-spacing: -0.5px;
+}
+h4{
+   color: #ff4800;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 12px;
+    overflow: hidden;
+}
+
+#navbar li,
+#socialMedia-links li{
+    margin-left: 8px;
+    float: left;
+}
+
+
+button{
+    border: none;
+}
+header button{
+    background-color:  #ff4800;
+    padding: 8px;
+}
+
+#logistics-services{
+    background-color:#1b2125;
+    padding: 48px;
+    height: 100vh;
+}
+#logistics-services h2{
+    color:white;
+    margin-bottom: 48px;
+}
+#logistics-services h3{
+    color: #ff4800;
+    margin-bottom: 12px;
+}
+
+#input-id{
+    display: flex;
+    justify-content: center;
+}
+
+#get-a-quote{
+    background-color: #f2f2f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100vh;
+}
+
+#request-quote{
+    width:50%;
+}
+#request-quote h4,
+#request-quote h2,
+#request-quote p,
+#request-quote #dados{
+    text-align: left;
+    margin-bottom: 12px;
+}
+
+#dados{
+    display:flex;
+    gap: 48px;
+    flex-wrap: wrap;
+}
+
+#request-input{
+   background-color: #ff4800;
+   height: 100vh;
+   text-align: center;
+}
+form{
+    gap: 6px;
+    display: flex;
+    flex-direction: column;
+    padding: 135px 64px;
+}
+
+#pricing-plan{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    
+}
+
+#cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 16px;
+    
+}
+
+
+#pricing-plan figure{
+    background-color: #f2f2f4;
+    display:flex;
+    flex-direction: column;
+    gap:16px;
+    align-items: center;
+    padding: 24px 48px;
+
+
+}
+
+.price{
+    font-size: 44px;
+    font-weight: bold;
+}
+.Signature{
+    background-color: #ff4800;
+    align-self: stretch;
+    padding: 16px 24px;
+
+}
+.planType{     
+    font-size: 24px;
+    font-weight: bold;
+    
+}
+
+
+.plan-details li{
+    margin-bottom: 24px;
+}
+.plan-details li:last-child{
+    margin-bottom: 0px;
+}
+
+.btnOrder{
+    background-color: #ff4800;
+    display:block;
+    padding:16px;
+    font-size: 16px ;
+    color: white;
+}
+.team{
+    display:flex;
+    flex-direction:column;
+}
+#teamSection{
+    height: 75vh;
+}
+
+.team h4,
+.team h2{
+    margin-bottom: 8px;
+    font-weight: bolder;
+}
+#people figure{
+    background-color: #f2f2f4;
+    box-shadow: 0 4px #ff4800;
+    
+    
+}
+
+#people{
+    display: flex;     
+    justify-content: center; 
+    gap: 16px;
+    flex-wrap: wrap;
+    
+}
+#people figure img{
+    
+    height: 40vh;
+    
+}
+
+#blog{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.blog-news{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    flex-wrap: wrap;
+   
+    
+
+}
+.blog-news figure{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap:24px;
+    width: 40%; 
+    background-color: #f2f2f4;
+      
+}
+.news-text{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    text-align: left;
+    padding: 16px 24px;
+
+}
+
+
+
+
+.news-author{
+    display: flex;
+    justify-content: flex-start;
+    gap:9px;
+}
+
+
+
+
