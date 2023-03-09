@@ -28,17 +28,17 @@ body {
   color: #343a40;
 }
 
-a{
+a {
   text-decoration: none;
   font-weight: bold;
-  color:#343a40;
+  color: #343a40;
   font-size: 20px;
 }
 
 section {
   text-align: center;
 }
- 
+
 header {
   display: flex;
   justify-content: space-between;
@@ -46,17 +46,16 @@ header {
   padding-bottom: 16px;
   flex-wrap: wrap;
 }
-header .icon{
+header .icon {
   color: #ff4800;
   width: 48px;
   height: 48px;
 }
-header div{
+header div {
   display: flex;
   flex-wrap: wrap;
   gap: 12px;
   padding-left: 48px;
-  
 }
 
 h1 {
@@ -81,7 +80,6 @@ ul {
   overflow: hidden;
 }
 
-
 #navbar li,
 #socialMedia-links li {
   margin-left: 8px;
@@ -97,7 +95,6 @@ header button {
   padding: 12px 36px;
   color: white;
   margin-right: 48px;
-
 }
 
 #logistics-services {
@@ -126,7 +123,6 @@ header button {
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
-  
 }
 
 #request-quote {
@@ -139,14 +135,14 @@ header button {
   margin-bottom: 12px;
 }
 
-#request-quote h2{
+#request-quote h2 {
   color: #1f1f2e;
 }
-#quote-text{
+#quote-text {
   text-align: justify;
 }
 
-.numbers{
+.numbers {
   font-size: 36px;
   font-weight: bolder;
   color: #ff4800;
@@ -192,7 +188,6 @@ header button {
 .pricingPackages .price {
   font-size: 44px;
   font-weight: bold;
-  
 }
 
 .planType {
@@ -300,192 +295,50 @@ form {
   display: flex;
 }
 
-#address, 
+#address,
 #phone,
-#email{
-   margin-bottom: 16px;
+#email {
+  margin-bottom: 16px;
 }
 
-#socialMedia-links{
+#socialMedia-links {
   display: flex;
-  gap:12px;
+  gap: 12px;
   padding: 0;
 }
 
-#quick-links ul{
+#quick-links ul {
   padding: 0;
-  list-style-type:square;   /*ajeitar aqui */
+  list-style-type: square; /*ajeitar aqui */
 }
- #quick-links li{
+#quick-links li {
   margin-bottom: 10px;
-  
-
 }
 
-.almost-end .icon{
+.almost-end .icon {
   stroke: #f2f2f4;
   width: 18px;
   height: 18px;
 }
 
-footer{
+footer {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
-.orange-footer{
+.orange-footer {
   color: #ff4800;
 }
-footer p{
+footer p {
   padding-bottom: 8px;
 }
-footer ul{
+footer ul {
   display: flex;
   gap: 8px;
   padding: 0;
   flex-wrap: wrap;
-
 }
 #get-in-touch,
-footer{
+footer {
   padding-left: 24px;
 }
-
-
-/* #pricing-plan{
-    display: flex;
-    flex-direction: column;
-    gap: 32px;
-    
-}
-
-#cards{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 16px;
-    
-}
-
-
-#pricing-plan figure{
-    background-color: #f2f2f4;
-    display:flex;
-    flex-direction: column;
-    gap:16px;
-    align-items: center;
-    padding: 24px 48px;
-
-
-}
-
-.price{
-    font-size: 44px;
-    font-weight: bold;
-}
-.Signature{
-    background-color: #ff4800;
-    align-self: stretch;
-    padding: 16px 24px;
-
-}
-.planType{     
-    font-size: 24px;
-    font-weight: bold;
-    
-}
-
-
-.plan-details li{
-    margin-bottom: 24px;
-}
-.plan-details li:last-child{
-    margin-bottom: 0px;
-}
-
-.btnOrder{
-    background-color: #ff4800;
-    display:block;
-    padding:16px;
-    font-size: 16px ;
-    color: white;
-}
-.team{
-    display:flex;
-    flex-direction:column;
-}
-#teamSection{
-    height: 75vh;
-}
-
-.team h4,
-.team h2{
-    margin-bottom: 8px;
-    font-weight: bolder;
-}
-#people figure{
-    background-color: #f2f2f4;
-    box-shadow: 0 4px #ff4800;
-    
-    
-}
-
-#people{
-    display: flex;     
-    justify-content: center; 
-    gap: 16px;
-    flex-wrap: wrap;
-    
-}
-#people figure img{
-    
-    height: 40vh;
-    
-}
-
-#blog{
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-}
-
-.blog-news{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 24px;
-    flex-wrap: wrap;
-   
-    
-
-}
-.blog-news figure{
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-    gap:24px;
-    width: 40%; 
-    background-color: #f2f2f4;
-      
-}
-.news-text{
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-    text-align: left;
-    padding: 16px 24px;
-
-}
-
-
-
-
-.news-author{
-    display: flex;
-    justify-content: flex-start;
-    gap:9px;
-}
-
-*/
