@@ -342,3 +342,16 @@ footer ul {
 footer {
   padding-left: 24px;
 }
+.botao{
+  background-color: orangered; border-color: orangered;
+}
+
+.container{
+  display: flex; flex-direction: column; gap: 8%;
+}
+
+.option{
+  width: 150px; height: 40px; 
+ }
+
+ 
